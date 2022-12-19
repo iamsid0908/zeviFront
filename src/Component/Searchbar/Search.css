@@ -1,0 +1,166 @@
+
+body{
+    background-image: url("./Rectangle\ 9.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+}
+.zivi-logo1{
+    
+    background-image: url("./ZEVI-GG-LogoDesogn\ -Option-2-Black\ 2\ \(2\)\ 1.png");
+    height: 45px;
+    float: right;
+    width: 100px;
+    margin: 20px;
+    margin-right: 20px;
+}
+
+
+.home{
+    
+    
+    display: flex;
+    
+    
+    text-align: center;
+    flex-direction: column;
+}
+.input input{
+    height: 30px;
+    width: 40rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.search-icon{
+    height: 40px;
+    margin-top: 7px;
+}
+.all-input-container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input{
+    height: 50px;
+    width: 43.7em;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: none;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    
+    
+}
+.latest-trends{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 20%;
+    margin-right: 15%;
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+    border-radius: 5px;
+}
+
+.latest-trends .card{
+    margin: 10px;
+}
+.popular-name{
+    margin-left: 10px;
+
+}
+.popular-name .card-name p{
+    display: flex;
+   margin-left: 10px;
+    float: left;
+    
+}
+.all-product{
+    display: flex;
+    
+    /* border: 1px solid black; */
+}
+.all-product .filters{
+    margin-top: 20px;
+    flex: 0.7;
+}
+.all-product .list{
+    /* border: 2px solid green; */
+    flex: 2;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-list{
+    margin: 20px;
+    /* border: 1px solid blue; */
+    border-radius: 5px;
+}
+.card-list:hover{
+    transform: scale(1.03);
+    transition:.6s ease;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.card-list .price{
+    color: skyblue;
+}
+.header {
+    position: relative;
+   
+    
+  
+    /* z-index: -1; */
+  }
+  .header-img{
+      border-radius: 5px;
+  }
+  .header:hover .text{
+      visibility: visible;
+      opacity: 1;
+  }
+  .text {
+    position: absolute;
+    top: 80%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(29, 106, 154, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+  
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+  }
+
+.heart-icon{
+    position: absolute;
+    top:0;
+    left: 0;
+    color: pink;
+    
+    
+    
+}
+.heart-icon1{
+    position: absolute;
+    top:0;
+    left: 0;
+    color: white;
+    
+    
+}
+.header .heart-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.price-filter{
+    margin-top: 50px;
+}
